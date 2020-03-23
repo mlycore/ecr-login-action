@@ -23,5 +23,5 @@ outputs:
     description: 'The registry to log in to'
 runs:
   using: 'docker'
-  image: 'mworks92/ecr-login-action:v0.1'
+  image: 'docker://mworks92/ecr-login-action:v0.1'
 #  image: 'Dockerfile'
