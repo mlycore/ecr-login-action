@@ -1,6 +1,6 @@
 FROM alpine as runtime
-LABEL "repository"="https://github.com/elgohr/ecr-login-action"
-LABEL "maintainer"="Lars Gohr"
+LABEL "repository"="https://github.com/mlycore/ecr-login-action"
+LABEL "maintainer"="mlycore"
 
 RUN apk update \
   && apk upgrade \
